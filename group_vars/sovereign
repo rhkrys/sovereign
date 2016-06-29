@@ -4,8 +4,8 @@
 ################################################################################
 
 # common
-domain: (required)
-main_user_name: (required)
+domain: devtempo.com
+main_user_name: admin
 
 # admin email
 # fail2ban reports will be sent to this address
@@ -52,10 +52,10 @@ prosody_accounts:
 
 # openvpn
 openvpn_key_country:  "US"
-openvpn_key_province: "California"
-openvpn_key_city: "Beverly Hills"
-openvpn_key_org: "ACME CORPORATION"
-openvpn_key_ou: "Anvil Department"
+openvpn_key_province: "New York"
+openvpn_key_city: "New York"
+openvpn_key_org: "Devtempo"
+openvpn_key_ou: "IT Department"
 openvpn_clients:
   - laptop
   - phone
